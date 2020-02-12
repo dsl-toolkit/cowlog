@@ -1,13 +1,13 @@
 <!--- source qa rewrite fixture 6 begin -->
 ### QA
-[![CircleCI](https://circleci.com/gh/vidaxl-com/cowlog/tree/master.svg?style=svg)](https://circleci.com/gh/vidaxl-com/cowlog/tree/master)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/d3fce811aecbe5c73ffb/test_coverage)](https://codeclimate.com/github/vidaxl-com/cowlog/test_coverage)
-[![bitHound Overall Score](https://www.bithound.io/github/vidaxl-com/cowlog/badges/score.svg)](https://www.bithound.io/github/vidaxl-com/cowlog)
-[![bitHound Dependencies](https://www.bithound.io/github/vidaxl-com/cowlog/badges/dependencies.svg)](https://www.bithound.io/github/vidaxl-com/cowlog/master/dependencies/npm)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d3fce811aecbe5c73ffb/maintainability)](https://codeclimate.com/github/vidaxl-com/cowlog/maintainability)
-[![Known Vulnerabilities](https://snyk.io/test/github/vidaxl-com/cowlog/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vidaxl-com/cowlog?targetFile=package.json)
+[![CircleCI](https://circleci.com/gh/311ecode/cowlog/tree/master.svg?style=svg)](https://circleci.com/gh/311ecode/cowlog/tree/master)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/d3fce811aecbe5c73ffb/test_coverage)](https://codeclimate.com/github/311ecode/cowlog/test_coverage)
+[![bitHound Overall Score](https://www.bithound.io/github/311ecode/cowlog/badges/score.svg)](https://www.bithound.io/github/311ecode/cowlog)
+[![bitHound Dependencies](https://www.bithound.io/github/311ecode/cowlog/badges/dependencies.svg)](https://www.bithound.io/github/311ecode/cowlog/master/dependencies/npm)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d3fce811aecbe5c73ffb/maintainability)](https://codeclimate.com/github/311ecode/cowlog/maintainability)
+[![Known Vulnerabilities](https://snyk.io/test/github/311ecode/cowlog/badge.svg?targetFile=package.json)](https://snyk.io/test/github/311ecode/cowlog?targetFile=package.json)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvidaxl-com%2Fcowlog.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvidaxl-com%2Fcowlog?ref=badge_shield)
-[![Greenkeeper badge](https://badges.greenkeeper.io/vidaxl-com/cowlog.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/311ecode/cowlog.svg)](https://greenkeeper.io/)
 <!--- source qa rewrite fixture 6 end -->
 
 <!--- source chat rewrite fixture 6 begin -->
@@ -16,5 +16,5 @@
 <!--- source chat rewrite fixture 6 end -->
 
 <!--- source part of cowlog fixture 6 begin -->
-This document is part of the [Cowlog](https://github.com/vidaxl-com/cowlog) project. 
+This document is part of the [Cowlog](https://github.com/311ecode/cowlog) project. 
 <!--- source part of cowlog fixture 6 end -->
