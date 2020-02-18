@@ -1,14 +1,14 @@
 <!--- destination qa rewrite begin -->
 ### QA monorepo
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![CircleCI](https://circleci.com/gh/311ecode/cowlog/tree/master.svg?style=svg)](https://circleci.com/gh/311ecode/cowlog/tree/master)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a25454343626ec0c7a70/test_coverage)](https://codeclimate.com/github/311ecode/cowlog/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a25454343626ec0c7a70/maintainability)](https://codeclimate.com/github/311ecode/cowlog/maintainability)
-[![Greenkeeper badge](https://badges.greenkeeper.io/311ecode/cowlog.svg)](https://greenkeeper.io/)
-[![Known Vulnerabilities](https://snyk.io/test/github/311ecode/cowlog/badge.svg?targetFile=packages%2Fdsl-framework%2Fpackage.json)](https://snyk.io/test/github/311ecode/cowlog?targetFile=packages%2Fdsl-framework%2Fpackage.json)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvidaxl-com%2Fcowlog.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvidaxl-com%2Fcowlog?ref=badge_shield)
+[![CircleCI](https://circleci.com/gh/311ecode/dsl-toolkit/tree/master.svg?style=svg)](https://circleci.com/gh/311ecode/dsl-toolkit/tree/master)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a25454343626ec0c7a70/test_coverage)](https://codeclimate.com/github/311ecode/dsl-toolkit/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a25454343626ec0c7a70/maintainability)](https://codeclimate.com/github/311ecode/dsl-toolkit/maintainability)
+[![Greenkeeper badge](https://badges.greenkeeper.io/311ecode/dsl-toolkit.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/311ecode/dsl-toolkit/badge.svg?targetFile=packages%2Fdsl-framework%2Fpackage.json)](https://snyk.io/test/github/311ecode/dsl-toolkit?targetFile=packages%2Fdsl-framework%2Fpackage.json)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvidaxl-com%2Fdsl-toolkit.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvidaxl-com%2Fdsl-toolkit?ref=badge_shield)
 
-[![HitCount](http://hits.dwyl.com/vidaxl.com/cowlog.svg)](http://hits.dwyl.com/311ecode/cowlog)
+[![HitCount](http://hits.dwyl.com/vidaxl.com/dsl-toolkit.svg)](http://hits.dwyl.com/311ecode/dsl-toolkit)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 <!--- destination qa rewrite end -->
 
@@ -16,7 +16,7 @@
 Cowlog is **not for production code**, as it might cause performance issues. However, the tool provides **detailed information** about **where from you called** it from, so **you can locate and remove after debugging**. It gives you the **stack trace**. All the **log** messages **per process** to a separate file and **many more** things.
 <!--- source chat rewrite begin -->
 ### Chat
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cowlog/Lobby)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dsl-toolkit/Lobby)
 <!--- source chat rewrite end -->
 
 # Cowlog
@@ -28,7 +28,7 @@ Having it's own
 [domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language "From Wikipedia, the free encyclopedia")
 regarding the logging procedures, it's behaviour can be altered
 through the use
-**[of them](https://github.com/311ecode/cowlog/blob/master/packages/cowlog/documentation/logging_functionality.md).**
+**[of them](https://github.com/311ecode/dsl-toolkit/blob/master/packages/cowlog/documentation/logging_functionality.md).**
 The project supports at the moment only the **NodeJs environment**.
 
 We want cowlog to be usable in any circumstances without problems therefore we
@@ -110,9 +110,9 @@ The output looks like this:
 |                                                                                                    |
 | _-_-_-_-_-_-_-_-_-_-_-_                                                                            |
 |                                                                                                    |
-| called from:/home/it/dev/misc/cowlog/packages/cowlog/node_modules/bottlejs/dist/bottle.js:205:89   |
-| stack trace:/tmp/cowlog/hashes/1a/aca79320ae42540da2a83d1d1c7b6d_stack-trace.log                   |
-| session log:/tmp/cowlog/hashes/b6/cda5f0931f0f85054b0f59b0d5e749_session.log                       |
+| called from:/home/it/dev/misc/dsl-toolkit/packages/dsl-toolkit/node_modules/bottlejs/dist/bottle.js:205:89   |
+| stack trace:/tmp/dsl-toolkit/hashes/1a/aca79320ae42540da2a83d1d1c7b6d_stack-trace.log                   |
+| session log:/tmp/dsl-toolkit/hashes/b6/cda5f0931f0f85054b0f59b0d5e749_session.log                       |
 \ logged at:2018-06-20T20:54:17.782Z                                                                 /
  ----------------------------------------------------------------------------------------------------
     \
@@ -183,5 +183,5 @@ some pressure from the community, and meanwhile, we have
 more meaningful things to implement.
 
 <!--- source part of cowlog begin -->
-This document is part of the [Cowlog](https://github.com/311ecode/cowlog) project.
+This document is part of the [Cowlog](https://github.com/311ecode/dsl-toolkit) project.
 <!--- source part of cowlog end -->
