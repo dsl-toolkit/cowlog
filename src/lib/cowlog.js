@@ -2,12 +2,12 @@
 module.exports = exports = function (logger, messageCreator, runtimeVariables, dictionary, environmentDependent) {
   return function () {
     let exitCalled = false
-    let cowlog = {
+    const cowlog = {
       _exit: function () {
         if (runtimeVariables.lastLogs && !exitCalled) {
           console.log(dictionary.dieDelimiter)
           runtimeVariables.lastLogs.forEach(function (log) {
-            let result = messageCreator(runtimeVariables.calculatedParameters,
+            const result = messageCreator(runtimeVariables.calculatedParameters,
               log, true, true)
             console.log(result)
           })
@@ -16,7 +16,7 @@ module.exports = exports = function (logger, messageCreator, runtimeVariables, d
       },
 
       log: function () {
-        let returnValue = logger(0)(...arguments)
+        const returnValue = logger(0)(...arguments)
         return returnValue
       },
 

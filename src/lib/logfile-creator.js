@@ -15,9 +15,9 @@ module.exports = exports = (dir) => (fileContent, logTypeString) => {
   const makeHashPath = function (relativeFilePath, logTypeString) {
     return path.join(dir, relativeFilePath) + logTypeString
   }
-  let hash = fileContent ? hashCreator(fileContent) : hashCreator(Math.random())
-  let relativeFilePath = makeFileNameHashPath(hash)
-  let filePath = makeHashPath(relativeFilePath, '_' + logTypeString)
+  const hash = fileContent ? hashCreator(fileContent) : hashCreator(Math.random())
+  const relativeFilePath = makeFileNameHashPath(hash)
+  const filePath = makeHashPath(relativeFilePath, '_' + logTypeString)
   /* istanbul ignore else */
   if (!fs.existsSync(filePath)) {
     writeFile.sync(filePath, fileContent)

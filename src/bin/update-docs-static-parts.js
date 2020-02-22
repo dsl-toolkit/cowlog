@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-let { linkerDir } = require('generic-text-linker')
+const { linkerDir } = require('generic-text-linker')
 
-let path = require('path')
+const path = require('path')
 
-let staticUpdate = function () {
-  let projectRoot = path.join(__dirname, '../../../../')
+const staticUpdate = function () {
+  const projectRoot = path.join(__dirname, '../../../../')
 
-  let src = linkerDir(projectRoot, '<!--- source qa rewrite begin -->', '<!--- source qa rewrite end -->')
+  const src = linkerDir(projectRoot, '<!--- source qa rewrite begin -->', '<!--- source qa rewrite end -->')
   linkerDir(projectRoot,
     '<!--- destination qa rewrite begin -->', '<!--- destination qa rewrite end -->',
     src)

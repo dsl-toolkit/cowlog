@@ -21,7 +21,7 @@ module.exports = function (calculatedParameters) {
   container.set('logger-body-factory', (c) => require('../lib/logger/body-factory')(c))
   container.set('log-file-creator', () => require('../lib/logfile-creator')(cowlogHashDir))
   container.set('cowlog', (c) => {
-    const logger = c['logger']
+    const logger = c.logger
     const messageCreator = c.get('message-creator')
     const runtimeVariables = c.get('runtime-variables')
     const dictionary = c.get('dictionary')
@@ -58,7 +58,7 @@ module.exports = function (calculatedParameters) {
   container.set('message-coloring', (c) => require('../lib/message/coloring')())
   container.set('plugin-loader', (c) => require('../lib/plugin/plugin-loader')(c))
 
-  let plugins = container.get('calculated-parameters').plugins || []
+  const plugins = container.get('calculated-parameters').plugins || []
 
   plugins.forEach(function (plugin) {
     container.get('plugin-loader')(plugin)

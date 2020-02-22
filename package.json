@@ -90,7 +90,7 @@
     "strip-ansi": "^6.0.0"
   },
   "engines": {
-    "node": "<=7.6.4"
+    "node": ">=11"
   },
   "os": [
     "darwin",
