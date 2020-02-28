@@ -1,9 +1,9 @@
 {
-  "name": "dsl-toolkit",
+  "name": "cowlog",
   "private": false,
   "version": "1.6.62",
   "description": "Development time logging for NodeJs",
-  "homepage": "https://github.com/311ecode/dsl-toolkit/tree/master/packages/cowlog",
+  "homepage": "https://github.com/dsl-toolkit/cowlog",
   "keywords": [
     "log",
     "logging",
@@ -13,7 +13,7 @@
     "cowlog"
   ],
   "bugs": {
-    "url": "https://github.com/311ecode/dsl-toolkit/issues"
+    "url": "https://github.com/dsl-toolkit/array-dsl/issues"
   },
   "main": "dist/src/index.js",
   "scripts": {
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/311ecode/dsl-toolkit.git"
+    "url": "https://github.com/dsl-toolkit/cowlog.git"
   },
   "license": "SEE LICENSE IN LICENSE.md",
   "author": {
