@@ -98,8 +98,8 @@ parallel('cowlog functional tests', function () {
 
   it('testing @last feature', function (done) {
     testExec('last', function (output) {
-      let abcLines = substingToLineMapper(output, mockData.abcString)
-      let endLine = substingToLineMapper(output, 'The following log entry is shown here because asked for it to show it again before the program exits')
+      let abcLines = substingToLineMapper(output, mockData.abcString, {nothingAfterTag:false})
+      let endLine = substingToLineMapper(output, 'The following log entry is shown here because asked for it to show it again before the program exits', {nothingAfterTag:false})
       assert(abcLines.length === 2, `the 'abc' string shall be present in the output twice ${abcLines.length}`)
       assert(endLine > abcLines[0], 'the firts occurence shall be sooner than the process ending text')
       assert(endLine < abcLines[1], 'the second one shall occur after the process end test')
@@ -113,8 +113,8 @@ parallel('cowlog functional tests', function () {
 
   it('testing @lasts feature', function (done) {
     testExec('lasts', function (output) {
-      let abcLines = substingToLineMapper(output, 'abcz')
-      let endLine = substingToLineMapper(output, 'The following log entry is shown here because asked for it to show it again before the program exits')
+      let abcLines = substingToLineMapper(output, 'abcz', {nothingAfterTag:false})
+      let endLine = substingToLineMapper(output, 'The following log entry is shown here because asked for it to show it again before the program exits', {nothingAfterTag:false})
       // todo: fix it ===4 shall be ok but nde7 and lover it doubles the printing at the end.
       // assert(abcLines.length === 4, "the 'abc' string shall be present in the output twice " + abcLines.length)
       assert(abcLines.length >= 4, "the 'abc' string shall be present in the output twice " + abcLines.length)
